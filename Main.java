@@ -126,7 +126,7 @@ public class Main {
 
 class Person {
 
-    int idI = 0;
+    static int idI = 0;
     String name;
     String surname;
     int age;
@@ -136,8 +136,7 @@ class Person {
         this.name = name;
         this.surname = surname;
         this.age = age;
-        this.id = idI;
-        idI++;
+        this.id = idI++;
     }
 
     /*
